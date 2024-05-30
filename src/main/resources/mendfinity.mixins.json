@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.lthoerner.mendfinity.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "InfinityEnchantmentMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
