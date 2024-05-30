@@ -3,15 +3,15 @@
 	"id": "mendfinity",
 	"version": "${version}",
 	"name": "Mendfinity",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Minecraft mod which makes the Infinity and Mending enchantments no longer incompatible with each other.",
 	"authors": [
-		"Me!"
+		"lthoerner"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPLv3",
 	"icon": "assets/mendfinity/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,11 +20,7 @@
 		]
 	},
 	"mixins": [
-		"mendfinity.mixins.json",
-		{
-			"config": "mendfinity.client.mixins.json",
-			"environment": "client"
-		}
+		"mendfinity.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
